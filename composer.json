@@ -1,10 +1,10 @@
 {
-    "name": "bizonix/rolling-curl",
+    "name": "gekkone/rolling-curl",
     "description": "Rolling-Curl: A non-blocking, non-dos multi-curl library for PHP",
-    "version": "3.1.1",
+    "version": "3.1.2",
     "type": "library",
     "keywords": ["multi", "curl", "parallel", "requests", "asynchronous", "http"],
-    "homepage": "https://github.com/bizonix/rolling-curl",
+    "homepage": "https://github.com/gekkone/rolling-curl",
     "authors": [
         {
             "name": "Jeff Minard",
