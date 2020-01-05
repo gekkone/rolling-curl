@@ -32,7 +32,7 @@
             "name": "Gekkone",
             "homepage": "https://github.com/gekkone",
             "role": "Developer"
-        },
+        }
     ],
     "license": "Apache-2.0",
     "require": {
