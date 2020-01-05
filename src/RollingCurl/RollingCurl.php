@@ -548,9 +548,10 @@ class RollingCurl
      */
     public function setSimultaneousLimit($count)
     {
-        if (!is_int($count) || $count < 2) {
-            throw new \InvalidArgumentException("setSimultaneousLimit count must be an int >= 2");
+        if (!is_int($count) || $count < 1) {
+            throw new \InvalidArgumentException("setSimultaneousLimit count must be an int >= 1");
         }
+
         $this->simultaneousLimit = $count;
         return $this;
     }
@@ -574,7 +575,7 @@ class RollingCurl
     /**
      * Return the next $limit pending requests (may return an empty array)
      *
-     * If you pass $limit <= 0 you will get all the pending requests back
+     * If you pass $limit <= -1 you will get all the pending requests back
      *
      * @param int $limit
      * @return Request[] May be empty
@@ -615,7 +616,8 @@ class RollingCurl
      */
     public function prunePendingRequestQueue()
     {
-        $this->pendingRequests = $this->getNextPendingRequests(0);
+        // getNextPendingRequests(-1) - get all next pending requests
+        $this->pendingRequests = $this->getNextPendingRequests(-1);
         $this->pendingRequestsPosition = 0;
         return $this;
     }
