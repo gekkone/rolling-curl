@@ -1,7 +1,7 @@
 {
     "name": "gekkone/rolling-curl",
     "description": "Rolling-Curl: A non-blocking, non-dos multi-curl library for PHP",
-    "version": "3.1.2",
+    "version": "3.1.3",
     "type": "library",
     "keywords": ["multi", "curl", "parallel", "requests", "asynchronous", "http"],
     "homepage": "https://github.com/gekkone/rolling-curl",
@@ -27,7 +27,12 @@
             "name": "BiZoNiX",
             "homepage": "https://github.com/bizonix",
             "role": "Developer"
-        }
+        },
+        {
+            "name": "Gekkone",
+            "homepage": "https://github.com/gekkone",
+            "role": "Developer"
+        },
     ],
     "license": "Apache-2.0",
     "require": {
