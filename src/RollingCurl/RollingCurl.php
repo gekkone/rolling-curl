@@ -5,12 +5,13 @@
  * a consistent number of simultaneous connections
  *
  * @package RollingCurl
- * @version 2.0
+ * @version 3.1.3
  * @author Jeff Minard (http://jrm.cc/)
  * @author Josh Fraser (www.joshfraser.com)
  * @author Alexander Makarov (http://rmcreative.ru/)
+ * @author Gekkone (https://github.com/gekkone)
  * @license Apache License 2.0
- * @link https://github.com/chuyskywalker/rolling-curl
+ * @link https://github.com/gekkone/rolling-curl
  */
 
 namespace RollingCurl;
